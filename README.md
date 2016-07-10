@@ -1,41 +1,55 @@
-# The Kabal Invasion
+The Kabal Invasion - Readme
 
-The Kabal Invasion is a web-based 4X space game. It is coded in PHP/HTML/JS/SQL.
+The Kabal Invasion is a web-based 4X space game. It is coded using PHP, SQL, and  Javascript.
 
-[![Dependency Status](https://www.versioneye.com/user/projects/57796f3468ee07003cb5d764/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/57796f3468ee07003cb5d764)
-![PHP7 ready](https://img.shields.io/badge/PHP7-ready-green.svg)
-[![GitHub stars](https://img.shields.io/github/stars/thekabal/tki.svg)](https://github.com/thekabal/tki/stargazers)
-[![GitHub license](https://img.shields.io/badge/license-AGPL-blue.svg)](https://www.gnu.org/licenses/agpl-3.0.html)
-[![GitHub issues](https://img.shields.io/github/issues/thekabal/tki.svg)](https://github.com/thekabal/tki/issues)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/thekabal/tki/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/thekabal/tki/?branch=master)
+Version 0.8 / https://github.com/thekabal/tki
 
-##What is it?
-    A web based space exploration (4x) game based on the old BBS door games that went
-    by many names (Tradewars, Galactic Warzone, Ultimate Universe, and
-    many other games like this) but shares no code with them.  It is
-    written 100% in PHP/HTML/JS/SQL.
-    
-##Requirements:
+Copyright © 2016 The Kabal Invasion development team, Ron Harwood, and the BNT development team
+
+This program is free software; you can redistribute it and/or modify it under 
+the terms of the GNU Affero Public License v3 (see license or http://www.gnu.org/licenses/agpl-3.0.html)
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Affero Public License for more details.
+
+Requirements: 
 - MySQL version 5.5.3 minimum is required (needed for utf8mb4 schemas).
 - PHP's mbstring extension must be installed (used in common.php)
-- PHP's pdo extension must be installed (used throughout the game)
+- PHP's pdo extension must be installed (used in create_universe, and soon the rest of the game)
 - Web browser - Firefox and Chrome (v30+ for both) are best, while Safari (v6+) is also good. Internet Explorer needs to be at least (v9+).
 - Apache version 2.2.22+ is supported, we have not determined a required minimum. TKI will likely run on lighttpd and nginix, but has not been tested on either.
 - Development "Snapshots" are intended only for developers that are actively involved in the development process, and require additional effort to work (composer, etc)
 - PHP version 7+ is required (random_int used throughout).
-- IIS is NOT supported, please do not ask. (But we welcome code to make it work on IIS!)
+- IIS is NOT supported, please do not ask!
 
-##Credits:
-The Kabal Invasion forked from [Blacknova Traders](https://sourceforge.net/projects/blacknova/), please visit their sourceforge page for more information about their project.
+Download:
+    You can get the newest version at https://github.com/thekabal/tki
 
-##Installation:
-Please see the docs/install file.
+Credits:
+    The Kabal Invasion forked from Blacknova Traders, please visit their sourceforge page for more information about their project.
 
-##Upgrades:
-As is typical with releases, we highly recommend a fresh install. Upgrades are not supported at this time.
+    This game concept is based on the old BBS games that went by many names
+    (Tradewars, Galactic Warzone, Yankee Trader, Ultimate Universe, and
+    many other names like this) but shares no code with them.  It is
+    written 100% in PHP/HTML/SQL.  
 
-##Code quality:
-The project began in the early PHP4 era, and as a result, is less than ideal. Substantial progress has been made towards modernization, and we are continuing that process. **Feedback and PR's are welcome and appreciated**.
+Installation:
+    Please see the docs/install file.
 
-I hope you enjoy the game!,
-<br>The Kabal
+Upgrades:
+    As is typical with releases, we highly recommend a fresh install. Upgrades are not supported at this time.
+
+ChangeLog:
+    Please see the docs/changes file.    
+
+Documentation:
+    See the docs/ directory.
+
+Updates:
+    Join the forums (http://kabal.tk/forums/) to stay informed about updates, patches 
+    and new releases.
+
+Enjoy,
+
+The Kabal <thekabal@gmail.com>
